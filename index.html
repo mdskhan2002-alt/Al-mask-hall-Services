@@ -1,0 +1,1114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+  <meta name="theme-color" content="#120918" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+  <meta name="format-detection" content="telephone=no" />
+  <meta name="description" content="Al Misk Hall (قاعة المسك) — premier luxury wedding and events venue in Ibri, Oman. Experience our hall through an immersive scroll-driven entrance animation, real photo gallery, packages, and direct WhatsApp booking." />
+  <meta name="keywords" content="Al Misk Hall, Ibri Oman, wedding venue, event hall, wedding stage, Ibri hall, قاعة المسك عبري" />
+  <title>Al Misk Hall | Weddings &amp; Events | Ibri, Oman</title>
+  
+  <!-- Google Fonts: Cormorant Garamond & Inter -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;0,700;1,400;1,600&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- Top Sticky Glass Navigation Bar -->
+  <header class="nav" id="topNav">
+    <a class="brand" href="#hero-scroll-container" aria-label="Al Misk Hall Home">
+      <span class="brand-mark">✦</span>
+      <div class="brand-text">
+        <b>AL MISK HALL</b>
+        <small>قاعة المسك · IBRI · OMAN</small>
+      </div>
+    </a>
+
+    <button class="menu-btn" id="menuBtn" aria-label="Toggle Navigation Menu">
+      <span></span>
+      <span></span>
+      <span></span>
+    </button>
+
+    <nav id="navMenu">
+      <div class="nav-drawer-header">
+        <div class="drawer-brand">
+          <span class="brand-mark">✦</span>
+          <div class="brand-text">
+            <b>AL MISK HALL</b>
+            <small>قاعة المسك · IBRI · OMAN</small>
+          </div>
+        </div>
+        <button class="drawer-close" id="drawerClose" aria-label="Close Navigation Menu">✕</button>
+      </div>
+      <div class="drawer-links-wrap">
+        <a href="#hero-scroll-container">Home</a>
+        <a href="#about">About</a>
+        <a href="#gallery">Gallery</a>
+        <a href="#events">Events</a>
+        <a href="#why">Why Us</a>
+        <a href="#packages">Packages</a>
+        <a href="#reviews">Reviews</a>
+        <a href="#location">Location</a>
+      </div>
+      <a class="nav-cta" href="#booking">Check Availability <span>→</span></a>
+      <div class="drawer-quick-contact">
+        <a href="tel:+96896135511" class="drawer-chip">
+          <span class="chip-icon">📞</span>
+          <span>+968 9613 5511</span>
+        </a>
+        <a href="https://wa.me/96896135511?text=Hello%20Al%20Misk%20Hall%2C%20I%20would%20like%20to%20enquire%20about%20booking." target="_blank" rel="noopener" class="drawer-chip wa">
+          <span class="chip-icon">💬</span>
+          <span>WhatsApp Chat</span>
+        </a>
+      </div>
+    </nav>
+  </header>
+
+  <!-- Mobile Drawer Backdrop Overlay -->
+  <div class="nav-backdrop" id="navBackdrop" aria-hidden="true"></div>
+
+  <!-- Scroll-Driven Video Hero Section (Entrance Dolly Animation) -->
+  <div id="hero-scroll-container" class="scroll-hero-container">
+    <div class="sticky-viewport">
+      <!-- Grand Hero Entrance Photo of Al Misk Hall (Instant load, crystal-clear, never missing) -->
+      <img
+        src="1g.png"
+        alt="Al Misk Hall Grand Portico and Facade"
+        class="hero-bg-photo"
+        id="heroBgPhoto"
+      />
+
+      <!-- Background Video: Autoplays automatically on land, muted, looping with photo fallback -->
+      <video
+        id="scrollVideo"
+        class="scroll-video"
+        src="01.mp4"
+        autoplay
+        loop
+        muted
+        playsinline
+        webkit-playsinline
+        preload="auto"
+        poster="1g.png"
+      >
+        <source src="01.mp4" type="video/mp4" />
+        <source src="1.1.mp4" type="video/mp4" />
+        Your browser does not support HTML5 video.
+      </video>
+
+      <!-- Luxury Vignette, Radial Glow & Shimmer Overlays -->
+      <div class="cinematic-overlay"></div>
+      <div class="ambient-glow"></div>
+      <div class="gold-shimmer-layer" aria-hidden="true"></div>
+
+      <!-- Scroll Story Stage 1 (0% - 30% scroll) -->
+      <div class="story-stage stage-1 active" id="stage1">
+        <div class="hero-split-layout">
+          <!-- Left: Hero Headline & Actions -->
+          <div class="hero-content">
+            <div class="eyebrow-badge">
+              <span class="badge-gem">✦</span>
+              <span>AL MISK HALL · IBRI · OMAN</span>
+              <span class="badge-gem">✦</span>
+            </div>
+            <h1 class="hero-title">
+              Where Your Most<br />
+              <em>Beautiful Moments</em><br />
+              Begin
+            </h1>
+            <p class="lead">
+              A prestigious luxury setting for weddings, engagements, and unforgettable banquets in Ibri, Ad Dhahirah Governorate.
+            </p>
+            <div class="hero-actions">
+              <a class="btn btn-gold" href="#booking">Check Availability <span>→</span></a>
+              <a class="btn btn-glass" href="https://wa.me/96896135511?text=Hello%20Al%20Misk%20Hall%2C%20I%27d%20like%20to%20check%20availability." target="_blank" rel="noopener">
+                WhatsApp Us <span>↗</span>
+              </a>
+              <button class="btn btn-glass" id="heroWatchVideoBtn" type="button">
+                Watch Video <span>▶</span>
+              </button>
+            </div>
+            <div class="hero-trust-bar">
+              <div class="trust-stars">★★★★★</div>
+              <span class="trust-text"><b>4.8 / 5.0</b> Verified Venue Rating in Ibri, Oman</span>
+            </div>
+          </div>
+
+          <!-- Right: Opulent Venue Highlights Glass Card (Fills empty right space) -->
+          <div class="hero-quick-card">
+            <div class="quick-card-header">
+              <span class="live-dot"></span>
+              <span class="quick-card-tag">NOW BOOKING 2026 / 2027</span>
+            </div>
+            <h3 class="quick-card-title">Venue Highlights</h3>
+            <p class="quick-card-sub">قاعة المسك للأفراح والمناسبات</p>
+            <ul class="quick-card-list">
+              <li>
+                <div class="q-icon-wrap"><span class="q-icon">👥</span></div>
+                <div class="q-detail">
+                  <strong>1,000+ Guests Capacity</strong>
+                  <small>Expansive grand ballroom & kosha arena</small>
+                </div>
+              </li>
+              <li>
+                <div class="q-icon-wrap"><span class="q-icon">❄️</span></div>
+                <div class="q-detail">
+                  <strong>High-Power Chilled A/C</strong>
+                  <small>Consistent ice-cold comfort in all seasons</small>
+                </div>
+              </li>
+              <li>
+                <div class="q-icon-wrap"><span class="q-icon">👑</span></div>
+                <div class="q-detail">
+                  <strong>VIP Bridal Dressing Suite</strong>
+                  <small>Private preparation lounge & bathroom</small>
+                </div>
+              </li>
+              <li>
+                <div class="q-icon-wrap"><span class="q-icon">🚗</span></div>
+                <div class="q-detail">
+                  <strong>200+ Parking Capacity</strong>
+                  <small>Dedicated paved parking directly outside</small>
+                </div>
+              </li>
+            </ul>
+            <div class="quick-card-footer">
+              <a href="#booking" class="btn-card-primary">Reserve Date <span>→</span></a>
+              <a href="tel:+96896135511" class="btn-card-call" title="Call directly">📞 +968 9613 5511</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Scroll Story Stage 2 (33% - 66% scroll - Camera approaches grand illuminated entrance) -->
+      <div class="story-stage stage-2" id="stage2">
+        <div class="hero-content center-align">
+          <p class="eyebrow"><span class="gem">✦</span> A GRAND ARRIVAL <span class="gem">✦</span></p>
+          <h2 class="stage-title">
+            Step into <em>Timeless Elegance</em>
+          </h2>
+          <p class="lead max-width-lead">
+            Approach an extraordinary venue crafted to captivate your guests from their very first steps along our illuminated portico and majestic entrance.
+          </p>
+          <div class="pills-row">
+            <span class="pill">✧ Majestic Ballroom</span>
+            <span class="pill">✧ Royal Kosha Stage</span>
+            <span class="pill">✧ 1,000+ Guests Capacity</span>
+            <span class="pill">✧ Crystal Chandeliers</span>
+          </div>
+          <div class="stage-spec-grid">
+            <div class="spec-box">
+              <b>1,500 m²</b>
+              <span>Spacious Hall</span>
+            </div>
+            <div class="spec-box">
+              <b>2 VIP</b>
+              <span>Private Suites</span>
+            </div>
+            <div class="spec-box">
+              <b>100%</b>
+              <span>Backup Power</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Scroll Story Stage 3 (68% - 98% scroll - Entering into the hall) -->
+      <div class="story-stage stage-3" id="stage3">
+        <div class="hero-content center-align">
+          <p class="eyebrow"><span class="gem">✦</span> WELCOME TO AL MISK <span class="gem">✦</span></p>
+          <h2 class="stage-title">
+            Crafted for <em>Unforgettable</em><br />Evenings
+          </h2>
+          <p class="lead max-width-lead">
+            Bespoke decor, state-of-the-art stage lighting, and warm Omani hospitality tailored for your special celebration.
+          </p>
+          <div class="hero-actions center-actions">
+            <a class="btn btn-gold" href="#booking">Book Your Event <span>→</span></a>
+            <a class="btn btn-glass" href="#about">Explore The Hall <span>↓</span></a>
+            <a class="btn btn-glass" href="#gallery">View Real Photos <span>📷</span></a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Bottom Scroll Exploration Cue -->
+      <div class="scroll-cue" id="scrollCue">
+        <span class="cue-text">SCROLL TO EXPLORE VENUE</span>
+        <div class="mouse-icon">
+          <div class="wheel"></div>
+        </div>
+      </div>
+
+      <!-- Right-Side Interactive Progress Gauge -->
+      <div class="scroll-gauge" aria-hidden="true">
+        <div class="gauge-label">ENTRANCE DOLLY</div>
+        <div class="gauge-track">
+          <div class="gauge-fill" id="gaugeFill"></div>
+        </div>
+        <div class="gauge-percent" id="gaugePercent">0%</div>
+        <div class="gauge-milestone" id="gaugeMilestone">ENTRANCE</div>
+      </div>
+
+      <!-- Luxury Floating Video Playback & Sound Controller -->
+      <div class="video-playback-bar" id="videoPlaybackBar">
+        <button id="togglePlayBtn" class="video-bar-btn" title="Toggle Play / Pause">
+          <span id="ctrlIcon">▶</span>
+          <span id="ctrlText">Play Video</span>
+        </button>
+        <button id="soundToggleBtn" class="video-bar-btn" title="Toggle Sound On / Off">
+          <span id="soundIcon">🔇</span>
+          <span id="soundText">Sound</span>
+        </button>
+        <div class="video-status-chip">
+          <span class="live-dot-pulse"></span>
+          <span class="chip-title">ENTRANCE WALKTHROUGH</span>
+          <span class="time-display" id="videoTimeDisplay">00:00 / 00:10</span>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Main Website Content Flowing Seamlessly Below Hero -->
+  <main id="mainContent">
+
+    <!-- About / The Al Misk Experience Section -->
+    <section id="about" class="section about-section">
+      <div class="container about-grid">
+        <div class="about-copy">
+          <p class="eyebrow dark">THE AL MISK EXPERIENCE</p>
+          <h2>A Venue Worth<br /><em>Celebrating</em></h2>
+          <p class="description">
+            From intimate family celebrations to unforgettable wedding evenings, Al Misk Hall provides an elegant setting where every detail becomes part of your special moment. Located conveniently in Ibri, Oman, our grand hall offers an unmatched blend of tradition, luxury, and modern convenience.
+          </p>
+          <div class="features-grid">
+            <div class="feature-card">
+              <span class="feature-icon">◇</span>
+              <div class="feature-info">
+                <strong>Elegant Venue</strong>
+                <span>Majestic architecture &amp; high ceilings</span>
+              </div>
+            </div>
+            <div class="feature-card">
+              <span class="feature-icon">♡</span>
+              <div class="feature-info">
+                <strong>Weddings &amp; Engagements</strong>
+                <span>Designed for lifelong memories</span>
+              </div>
+            </div>
+            <div class="feature-card">
+              <span class="feature-icon">✦</span>
+              <div class="feature-info">
+                <strong>Private Celebrations</strong>
+                <span>Intimate family &amp; banquet parties</span>
+              </div>
+            </div>
+            <div class="feature-card">
+              <span class="feature-icon">⌖</span>
+              <div class="feature-info">
+                <strong>Located in Ibri</strong>
+                <span>Easily accessible with ample parking</span>
+              </div>
+            </div>
+          </div>
+          <div class="about-cta">
+            <a class="btn btn-dark" href="#booking">Plan Your Event <span>→</span></a>
+          </div>
+        </div>
+
+        <div class="about-media">
+          <div class="video-preview-card" id="openVideoCard">
+            <img src="1g.png" alt="Al Misk Hall Grand Entrance and Portico" class="preview-img" />
+            <div class="card-overlay"></div>
+            <div class="play-pulse">
+              <div class="play-btn">▶</div>
+            </div>
+            <div class="preview-caption">
+              <b>WATCH VENUE WALKTHROUGH</b>
+              <small>Click to view continuous entrance video</small>
+            </div>
+          </div>
+
+          <!-- Quick Specifications Grid (Fills empty space under video card) -->
+          <div class="about-stats-grid">
+            <div class="about-stat-item">
+              <span class="stat-number">1,200+</span>
+              <span class="stat-label">Max Guest Capacity</span>
+            </div>
+            <div class="about-stat-item">
+              <span class="stat-number">1,500 m²</span>
+              <span class="stat-label">Luxury Hall Floor</span>
+            </div>
+            <div class="about-stat-item">
+              <span class="stat-number">2 VIP</span>
+              <span class="stat-label">Bridal &amp; Groom Suites</span>
+            </div>
+            <div class="about-stat-item">
+              <span class="stat-number">100%</span>
+              <span class="stat-label">Backup Generators</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Photo Gallery Section with Real Local Venue Images -->
+    <section id="gallery" class="section gallery-section">
+      <div class="container">
+        <div class="section-header center">
+          <p class="eyebrow dark">OUR GALLERY</p>
+          <h2>See Your Celebration <em>Come to Life</em></h2>
+          <p class="subheading">Explore authentic moments captured at Al Misk Hall — royal stage designs, grand chandeliers, and banquet arrangements.</p>
+
+          <!-- Gallery Filter Tabs -->
+          <div class="gallery-tabs">
+            <button class="tab-btn active" data-filter="all">All Photos (9)</button>
+            <button class="tab-btn" data-filter="stage">Wedding Stage</button>
+            <button class="tab-btn" data-filter="interior">Hall &amp; Interior</button>
+            <button class="tab-btn" data-filter="dining">Table Setup</button>
+            <button class="tab-btn" data-filter="entrance">Grand Entrance</button>
+          </div>
+        </div>
+
+        <div class="gallery-grid" id="galleryGrid">
+          <!-- Item 1: Large Featured Stage -->
+          <figure class="gallery-item large" data-category="stage" data-src="631559547790650304.jpg" data-title="Royal Wedding Stage &amp; Lighting">
+            <img src="631559547790650304.jpg" alt="Royal Wedding Stage with glowing lighting and floral decor" loading="lazy" />
+            <div class="item-overlay">
+              <span class="zoom-badge">🔍 Click to Expand</span>
+            </div>
+            <figcaption>
+              <b>Royal Wedding Stage</b>
+              <span>Customized bridal kosha &amp; atmospheric stage lighting</span>
+            </figcaption>
+          </figure>
+
+          <!-- Item 2: Terrace & Entrance -->
+          <figure class="gallery-item" data-category="entrance" data-src="1g.png" data-title="Grand Portico &amp; Main Entrance">
+            <img src="1g.png" alt="Al Misk Hall Grand Portico and Facade" loading="lazy" />
+            <div class="item-overlay">
+              <span class="zoom-badge">🔍 Click to Expand</span>
+            </div>
+            <figcaption>
+              <b>Grand Portico &amp; Entrance</b>
+              <span>Majestic illuminated entrance with royal chandeliers</span>
+            </figcaption>
+          </figure>
+
+          <!-- Item 3: Hall Interior -->
+          <figure class="gallery-item" data-category="interior" data-src="download.jpg" data-title="Spacious Main Hall Interior">
+            <img src="download.jpg" alt="Al Misk Hall Ballroom Interior" loading="lazy" />
+            <div class="item-overlay">
+              <span class="zoom-badge">🔍 Click to Expand</span>
+            </div>
+            <figcaption>
+              <b>Spacious Main Hall</b>
+              <span>Expansive ballroom accommodating grand gatherings</span>
+            </figcaption>
+          </figure>
+
+          <!-- Item 4: Dining Setup -->
+          <figure class="gallery-item" data-category="dining" data-src="download (1).jpg" data-title="Elegant Dining &amp; Banquet Tables">
+            <img src="download (1).jpg" alt="Dining and Banquet Tables" loading="lazy" />
+            <div class="item-overlay">
+              <span class="zoom-badge">🔍 Click to Expand</span>
+            </div>
+            <figcaption>
+              <b>Banquet Seating Setup</b>
+              <span>Refined table arrangements and comfortable chairs</span>
+            </figcaption>
+          </figure>
+
+          <!-- Item 5: Stage Backdrop -->
+          <figure class="gallery-item" data-category="stage" data-src="download (2).jpg" data-title="Illuminated Celebration Setting">
+            <img src="download (2).jpg" alt="Illuminated Stage Backdrop" loading="lazy" />
+            <div class="item-overlay">
+              <span class="zoom-badge">🔍 Click to Expand</span>
+            </div>
+            <figcaption>
+              <b>Atmospheric Stage Ambiance</b>
+              <span>Warm tones and modern decorative touches</span>
+            </figcaption>
+          </figure>
+
+          <!-- Item 6: Table Setting Details -->
+          <figure class="gallery-item" data-category="dining" data-src="download (3).jpg" data-title="Tableware &amp; Centerpieces">
+            <img src="download (3).jpg" alt="Tableware &amp; Centerpieces" loading="lazy" />
+            <div class="item-overlay">
+              <span class="zoom-badge">🔍 Click to Expand</span>
+            </div>
+            <figcaption>
+              <b>Table Decor Details</b>
+              <span>Exquisite centerpieces and tableware</span>
+            </figcaption>
+          </figure>
+
+          <!-- Item 7: Floral & Backdrop -->
+          <figure class="gallery-item" data-category="stage" data-src="download (4).jpg" data-title="Floral Stage Arrangements">
+            <img src="download (4).jpg" alt="Floral Stage Arrangements" loading="lazy" />
+            <div class="item-overlay">
+              <span class="zoom-badge">🔍 Click to Expand</span>
+            </div>
+            <figcaption>
+              <b>Floral Accents</b>
+              <span>Delicate floral arches and luxury accents</span>
+            </figcaption>
+          </figure>
+
+          <!-- Item 8: Hall Atmosphere -->
+          <figure class="gallery-item" data-category="interior" data-src="download (5).jpg" data-title="Reception &amp; Welcome Lounge">
+            <img src="download (5).jpg" alt="Reception and Welcome Area" loading="lazy" />
+            <div class="item-overlay">
+              <span class="zoom-badge">🔍 Click to Expand</span>
+            </div>
+            <figcaption>
+              <b>Reception &amp; Welcome Lounge</b>
+              <span>Warm greeting area for VIP guests</span>
+            </figcaption>
+          </figure>
+
+          <!-- Item 9: Event Night View -->
+          <figure class="gallery-item" data-category="interior" data-src="download (6).jpg" data-title="Celebration Evening Lights">
+            <img src="download (6).jpg" alt="Evening celebration atmosphere" loading="lazy" />
+            <div class="item-overlay">
+              <span class="zoom-badge">🔍 Click to Expand</span>
+            </div>
+            <figcaption>
+              <b>Evening Celebration</b>
+              <span>Gleaming celebration ambiance under crystal lights</span>
+            </figcaption>
+          </figure>
+        </div>
+      </div>
+    </section>
+
+    <!-- Events & Special Occasions Section -->
+    <section id="events" class="section events-section">
+      <div class="container">
+        <div class="section-header">
+          <p class="eyebrow gold">FOR EVERY SPECIAL OCCASION</p>
+          <h2 class="light-heading">Moments Made <em>Memorable</em></h2>
+          <p class="lead light-lead">Whatever your milestone, Al Misk Hall offers the perfect backdrop with versatile event configurations.</p>
+        </div>
+
+        <div class="events-grid">
+          <article class="event-card">
+            <span class="event-num">01</span>
+            <h3>Weddings</h3>
+            <p>Create an elegant, enchanting wedding celebration your guests will cherish forever, with royal stage setups and full venue coordination.</p>
+            <a class="event-link" href="#booking" data-event-type="Wedding">Plan your wedding →</a>
+          </article>
+
+          <article class="event-card">
+            <span class="event-num">02</span>
+            <h3>Engagements</h3>
+            <p>A romantic, elevated setting for the beginning of your journey together with intimate seating and delicate ambient lighting.</p>
+            <a class="event-link" href="#booking" data-event-type="Engagement">Plan your engagement →</a>
+          </article>
+
+          <article class="event-card">
+            <span class="event-num">03</span>
+            <h3>Family Celebrations</h3>
+            <p>Gather your loved ones for anniversaries, birthdays, and milestones in a private, spacious hall that accommodates all generations.</p>
+            <a class="event-link" href="#booking" data-event-type="Family Celebration">Enquire now →</a>
+          </article>
+
+          <article class="event-card">
+            <span class="event-num">04</span>
+            <h3>Private &amp; Corporate</h3>
+            <p>A refined hall with high-quality audio-visual capabilities, ideal for community banquets, seminars, dinners, and gala nights.</p>
+            <a class="event-link" href="#booking" data-event-type="Private Event">Enquire now →</a>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Why Choose Al Misk Hall Section -->
+    <section id="why" class="section why-section">
+      <div class="container why-grid">
+        <div class="why-media">
+          <div class="image-frame main-frame">
+            <img src="631559547790650304.jpg" alt="Al Misk Hall wedding stage setup" class="why-img" />
+            <div class="frame-tag">
+              <b>ROYAL WEDDING STAGE</b>
+              <small>IBRI, OMAN</small>
+            </div>
+          </div>
+          <!-- Overlapping Secondary Visual (Fills empty media column space) -->
+          <div class="image-frame sub-frame">
+            <img src="download (1).jpg" alt="Al Misk Hall banquet dining layout" class="why-img-sub" />
+            <div class="frame-tag sub-tag">
+              <b>BANQUET EXCELLENCE</b>
+              <small>1,000+ SEATING</small>
+            </div>
+          </div>
+          <div class="floating-rating-badge">
+            <span class="badge-star">★</span>
+            <div class="badge-text">
+              <strong>4.8 / 5.0 Rating</strong>
+              <small>500+ Celebrations Hosted</small>
+            </div>
+          </div>
+        </div>
+
+        <div class="why-content">
+          <p class="eyebrow dark">WHY AL MISK HALL</p>
+          <h2>Everything You Need for a<br /><em>Memorable Celebration</em></h2>
+          <p class="description">
+            We understand the significance of your special event. Our venue offers top-tier facilities, customizable themes, and attentive on-site assistance to make your planning seamless.
+          </p>
+
+          <div class="checks-grid">
+            <div class="check-item">
+              <span class="check-icon">✓</span>
+              <div>
+                <strong>Elegant Venue</strong>
+                <p>Spacious, fully air-conditioned ballroom with high ceilings.</p>
+              </div>
+            </div>
+            <div class="check-item">
+              <span class="check-icon">✓</span>
+              <div>
+                <strong>Beautiful Stage Setup</strong>
+                <p>Customizable kosha stages with dynamic lighting options.</p>
+              </div>
+            </div>
+            <div class="check-item">
+              <span class="check-icon">✓</span>
+              <div>
+                <strong>Professional Environment</strong>
+                <p>Modern audio systems, projector screens, and clean acoustics.</p>
+              </div>
+            </div>
+            <div class="check-item">
+              <span class="check-icon">✓</span>
+              <div>
+                <strong>Convenient Location</strong>
+                <p>Centrally located in Ibri with ample dedicated parking spaces.</p>
+              </div>
+            </div>
+            <div class="check-item">
+              <span class="check-icon">✓</span>
+              <div>
+                <strong>Flexible Arrangements</strong>
+                <p>Easily adapted for men's and women's events, banquets, or theatre seating.</p>
+              </div>
+            </div>
+            <div class="check-item">
+              <span class="check-icon">✓</span>
+              <div>
+                <strong>Dedicated Service</strong>
+                <p>Caring team ready to support you every step of the way.</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Extra Value Trust Strip (Fills bottom space) -->
+          <div class="why-amenities-strip">
+            <div class="amenity-chip"><span class="chip-dot">✦</span> Full On-Site Tech Support</div>
+            <div class="amenity-chip"><span class="chip-dot">✦</span> Bridal VIP Lounge</div>
+            <div class="amenity-chip"><span class="chip-dot">✦</span> Backup Power System</div>
+            <div class="amenity-chip"><span class="chip-dot">✦</span> Ample Paved Parking</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Packages Section -->
+    <section id="packages" class="section packages-section">
+      <div class="container">
+        <div class="section-header center">
+          <p class="eyebrow dark">OUR PACKAGES</p>
+          <h2>Choose the <em>Perfect Package</em></h2>
+          <p class="subheading">Request current availability and package details directly from our team on WhatsApp.</p>
+        </div>
+
+        <div class="packages-grid">
+          <!-- Package 1 -->
+          <article class="package-card">
+            <div class="pkg-header">
+              <span class="pkg-category">CLASSIC</span>
+              <h3>Celebration</h3>
+              <p>Ideal for intimate occasions, small engagements, and family gatherings.</p>
+            </div>
+            <div class="pkg-body">
+              <ul class="pkg-features">
+                <li>Elegant hall setup &amp; seating</li>
+                <li>Standard sound &amp; atmospheric lighting</li>
+                <li>Air conditioning &amp; basic bridal area</li>
+                <li>Event support &amp; consultation</li>
+              </ul>
+            </div>
+            <div class="pkg-footer">
+              <a class="btn btn-outline" href="#booking" data-package="Classic Celebration">Request Package</a>
+            </div>
+          </article>
+
+          <!-- Package 2: Featured -->
+          <article class="package-card featured">
+            <div class="popular-badge">MOST POPULAR</div>
+            <div class="pkg-header">
+              <span class="pkg-category">SIGNATURE</span>
+              <h3>Wedding</h3>
+              <p>Our most requested package for grand, memorable wedding celebrations.</p>
+            </div>
+            <div class="pkg-body">
+              <ul class="pkg-features">
+                <li>Premium royal stage &amp; bridal kosha</li>
+                <li>Complete hall styling &amp; table linens</li>
+                <li>Enhanced sound, moving spotlights &amp; effects</li>
+                <li>Dedicated on-site event coordinator</li>
+                <li>Private bridal suite access</li>
+              </ul>
+            </div>
+            <div class="pkg-footer">
+              <a class="btn btn-gold" href="#booking" data-package="Signature Wedding">Request Package <span>→</span></a>
+            </div>
+          </article>
+
+          <!-- Package 3 -->
+          <article class="package-card">
+            <div class="pkg-header">
+              <span class="pkg-category">LUXURY</span>
+              <h3>Royal Grand</h3>
+              <p>For an opulent, VIP celebration with bespoke decor and full support.</p>
+            </div>
+            <div class="pkg-body">
+              <ul class="pkg-features">
+                <li>Exclusive full-venue buyout privileges</li>
+                <li>Customized bespoke stage &amp; floral arrangements</li>
+                <li>VIP entrance management &amp; red carpet</li>
+                <li>Comprehensive lighting, haze &amp; visual systems</li>
+                <li>Priority booking dates &amp; full coordination</li>
+              </ul>
+            </div>
+            <div class="pkg-footer">
+              <a class="btn btn-outline" href="#booking" data-package="Luxury Royal Grand">Request Package</a>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Reviews Section: Rich 3-Card Grid + Metrics (Fills previous empty space) -->
+    <section id="reviews" class="section reviews-section">
+      <div class="container">
+        <div class="section-header center">
+          <p class="eyebrow gold">LOVED BY OUR GUESTS</p>
+          <h2 class="light-heading">Real People. <em>Real Celebrations.</em></h2>
+          <p class="lead light-lead max-width-lead">
+            Honored to host royal weddings, engagements, and joyful milestones for families across Ibri and the Ad Dhahirah Governorate.
+          </p>
+          
+          <div class="reviews-summary-badge">
+            <div class="summary-google-pill">
+              <svg class="google-icon" viewBox="0 0 24 24" width="22" height="22">
+                <path fill="#4285F4" d="M22.56 12.25c0-.78-.07-1.53-.2-2.25H12v4.26h5.92c-.26 1.37-1.04 2.53-2.21 3.31v2.77h3.57c2.08-1.92 3.28-4.74 3.28-8.09z"/>
+                <path fill="#34A853" d="M12 23c2.97 0 5.46-.98 7.28-2.66l-3.57-2.77c-.98.66-2.23 1.06-3.71 1.06-2.86 0-5.29-1.93-6.16-4.53H2.18v2.84C3.99 20.53 7.7 23 12 23z"/>
+                <path fill="#FBBC05" d="M5.84 14.09c-.22-.66-.35-1.36-.35-2.09s.13-1.43.35-2.09V7.06H2.18C1.43 8.55 1 10.22 1 12s.43 3.45 1.18 4.94l2.85-2.22.81-.63z"/>
+                <path fill="#EA4335" d="M12 5.38c1.62 0 3.06.56 4.21 1.64l3.15-3.15C17.45 2.09 14.97 1 12 1 7.7 1 3.99 3.47 2.18 7.06l3.66 2.84c.87-2.6 3.3-4.52 6.16-4.52z"/>
+              </svg>
+              <span class="score-bold">4.8 / 5.0</span>
+              <div class="stars">★★★★★</div>
+              <span class="reviews-count">(50+ Google Reviews)</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- 3-Testimonials Grid -->
+        <div class="reviews-grid">
+          <div class="review-card">
+            <div class="review-stars">★★★★★</div>
+            <p class="review-text">
+              &ldquo;One of the best wedding venues in Ibri! The stage decoration was magnificent, the air conditioning was ice-cold throughout the night, and our guests were thoroughly impressed.&rdquo;
+            </p>
+            <div class="review-author">
+              <div class="author-avatar">M</div>
+              <div class="author-meta">
+                <strong>Mohammed Al-Ghafri</strong>
+                <small>Wedding Host · Ibri</small>
+              </div>
+            </div>
+          </div>
+
+          <div class="review-card">
+            <div class="review-stars">★★★★★</div>
+            <p class="review-text">
+              &ldquo;My bridal kosha and the grand crystal chandelier lighting looked like a dream. The private suite was quiet, clean, and spacious. Thank you Al Misk team for making our day magical!&rdquo;
+            </p>
+            <div class="review-author">
+              <div class="author-avatar">F</div>
+              <div class="author-meta">
+                <strong>Fatima Al-Kalbani</strong>
+                <small>Bride · Ad Dhahirah</small>
+              </div>
+            </div>
+          </div>
+
+          <div class="review-card">
+            <div class="review-stars">★★★★★</div>
+            <p class="review-text">
+              &ldquo;Flawless organization, outstanding acoustics, and huge parking space for over 300 cars. The management went above and beyond to accommodate all our banquet needs.&rdquo;
+            </p>
+            <div class="review-author">
+              <div class="author-avatar">S</div>
+              <div class="author-meta">
+                <strong>Salem Al-Mamari</strong>
+                <small>Family Celebration · Ibri</small>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Category Ratings Metric Bar -->
+        <div class="reviews-metrics-bar">
+          <div class="metric-item">
+            <span class="m-val">5.0 ★</span>
+            <span class="m-lbl">Stage &amp; Lighting</span>
+          </div>
+          <div class="metric-item">
+            <span class="m-val">4.9 ★</span>
+            <span class="m-lbl">A/C &amp; Cooling</span>
+          </div>
+          <div class="metric-item">
+            <span class="m-val">4.8 ★</span>
+            <span class="m-lbl">Parking &amp; Access</span>
+          </div>
+          <div class="metric-item">
+            <span class="m-val">5.0 ★</span>
+            <span class="m-lbl">Staff Hospitality</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Location & Contact Section: Real Interactive Map Embed (Replaces fake CSS lines) -->
+    <section id="location" class="section location-section">
+      <div class="container location-grid">
+        <div class="location-details">
+          <p class="eyebrow dark">FIND AL MISK HALL</p>
+          <h2>Visit Us or <em>Get in Touch</em></h2>
+          <p class="description">
+            We welcome you to tour our grand ballroom, inspect the bridal suites, and discuss your event setup in person.
+          </p>
+
+          <div class="contact-lines">
+            <div class="contact-line">
+              <span class="icon">⌖</span>
+              <div>
+                <strong>Venue Address &amp; Plus Code</strong>
+                <span>6CHP+WF8, Ibri, Ad Dhahirah Governorate, Sultanate of Oman</span>
+              </div>
+            </div>
+            <div class="contact-line">
+              <span class="icon">☎</span>
+              <div>
+                <strong>Direct Phone Line</strong>
+                <a href="tel:+96896135511">+968 9613 5511</a>
+              </div>
+            </div>
+            <div class="contact-line">
+              <span class="icon">◉</span>
+              <div>
+                <strong>Direct WhatsApp</strong>
+                <a href="https://wa.me/96896135511" target="_blank" rel="noopener">Chat with Hall Management (+968 9613 5511)</a>
+              </div>
+            </div>
+            <div class="contact-line">
+              <span class="icon">🕒</span>
+              <div>
+                <strong>Visiting &amp; Tour Hours</strong>
+                <span>Daily: 9:00 AM – 1:00 PM &amp; 4:30 PM – 10:30 PM</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="location-actions">
+            <a class="btn btn-dark" href="https://maps.app.goo.gl/dQYaWQvJMUNQa7oV8" target="_blank" rel="noopener">
+              Get Directions <span>→</span>
+            </a>
+            <a class="btn btn-outline" href="tel:+96896135511">
+              Call Venue <span>📞</span>
+            </a>
+          </div>
+        </div>
+
+        <div class="location-map-card">
+          <!-- Real Interactive Google Maps Embed -->
+          <div class="map-embed-wrapper">
+            <iframe
+              class="location-map-iframe"
+              src="https://maps.google.com/maps?q=Al+Misk+Hall+Ibri+Oman&t=&z=15&ie=UTF8&iwloc=&output=embed"
+              title="Al Misk Hall Location Map in Ibri, Oman"
+              loading="lazy"
+              allowfullscreen
+            ></iframe>
+            <div class="map-marker-overlay">
+              <div class="marker-chip">
+                <span class="pin">📍</span>
+                <div>
+                  <b>AL MISK HALL (قاعة المسك)</b>
+                  <small>Ibri, Oman · Near Main Highway</small>
+                </div>
+                <a class="map-app-btn" href="https://maps.app.goo.gl/dQYaWQvJMUNQa7oV8" target="_blank" rel="noopener">
+                  Open in Maps ↗
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Booking / WhatsApp Enquiry Form Section -->
+    <section id="booking" class="section booking-section">
+      <div class="container booking-grid">
+        <div class="booking-copy">
+          <p class="eyebrow dark">PLAN YOUR EVENT</p>
+          <h2>Let's Make Your<br /><em>Moment Special</em></h2>
+          <p class="description">
+            Send your event details and our management will promptly reply with current hall availability, tailored pricing, and package options directly on WhatsApp.
+          </p>
+
+          <div class="booking-perks">
+            <div class="perk">
+              <span class="bolt">⚡</span>
+              <div>
+                <strong>Instant WhatsApp Direct Enquiry</strong>
+                <small>No complicated waiting or forms — message our management directly.</small>
+              </div>
+            </div>
+            <div class="perk">
+              <span class="bolt">📅</span>
+              <div>
+                <strong>Date Reservation Check</strong>
+                <small>Quickly confirm if your preferred wedding or celebration date is open.</small>
+              </div>
+            </div>
+          </div>
+
+          <!-- Visiting Hours & Fast Response Badge (Fills empty space) -->
+          <div class="booking-hours-card">
+            <div class="hours-header">
+              <span class="hours-icon">🕒</span>
+              <strong>Venue Visit Hours</strong>
+            </div>
+            <p class="hours-text">
+              Morning: <b>9:00 AM – 1:00 PM</b><br />
+              Evening: <b>4:30 PM – 10:30 PM</b><br />
+              Friday: <b>4:00 PM – 10:30 PM</b>
+            </p>
+            <div class="fast-reply-pill">
+              <span class="live-dot"></span>
+              <span>Average WhatsApp Reply: Under 15 Minutes</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="booking-form-wrapper">
+          <form id="bookingForm" class="booking-form" novalidate>
+            <h3 class="form-title">Request Availability</h3>
+            <p class="form-subtitle">Fill in the details below to open your customized WhatsApp enquiry.</p>
+
+            <div class="form-row">
+              <div class="form-group">
+                <label for="name">Full Name <span class="req">*</span></label>
+                <input type="text" id="name" name="name" required placeholder="Your full name" autocomplete="name" />
+              </div>
+              <div class="form-group phone-form-group">
+                <label for="phone">WhatsApp Phone Number <span class="req">*</span></label>
+                <div class="phone-input-wrapper">
+                  <div class="phone-country-pill" title="Default Country: Oman (+968)">
+                    <span class="phone-flag">🇴🇲</span>
+                    <span class="phone-code">+968</span>
+                  </div>
+                  <input
+                    type="tel"
+                    id="phone"
+                    name="phone"
+                    required
+                    placeholder="9xxx xxxx"
+                    inputmode="tel"
+                    autocomplete="tel"
+                  />
+                </div>
+                <small class="phone-hint">Enter 8-digit mobile number (e.g. 9123 4567) or full international number</small>
+              </div>
+            </div>
+
+            <div class="form-row">
+              <div class="form-group">
+                <label for="event">Event Type <span class="req">*</span></label>
+                <select id="event" name="event" required>
+                  <option value="Wedding" selected>Wedding (حفل زفاف)</option>
+                  <option value="Engagement">Engagement (حفل خطوبة)</option>
+                  <option value="Family Celebration">Family Celebration (مناسبة عائلية)</option>
+                  <option value="Private Event">Private / Corporate Event (فعالية خاصة)</option>
+                  <option value="Other Occasion">Other Special Occasion (مناسبة أخرى)</option>
+                </select>
+              </div>
+              <div class="form-group">
+                <label for="date">Event Date <span class="req">*</span></label>
+                <input type="date" id="date" name="date" required />
+              </div>
+            </div>
+
+            <div class="form-group">
+              <label for="packageSelect">Preferred Package (Optional)</label>
+              <select id="packageSelect" name="packageSelect">
+                <option value="Not Specified">Select a package (or decide later)</option>
+                <option value="Classic Celebration">Classic Celebration</option>
+                <option value="Signature Wedding">Signature Wedding (Most Popular)</option>
+                <option value="Luxury Royal Grand">Luxury Royal Grand</option>
+              </select>
+            </div>
+
+            <div class="form-group">
+              <label for="message">Approx. Number of Guests &amp; Notes</label>
+              <textarea id="message" name="message" rows="3" placeholder="Approximate number of guests, catering needs, stage ideas, or specific questions..."></textarea>
+            </div>
+
+            <button type="submit" class="btn btn-submit" id="submitBtn">
+              <span>Request Availability on WhatsApp</span>
+              <span class="arrow">↗</span>
+            </button>
+
+            <small class="form-note">
+              🔒 Submitting opens WhatsApp directly with your message pre-composed for Al Misk Hall (+968 9613 5511).
+            </small>
+          </form>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container footer-content">
+      <div class="footer-brand">
+        <span class="brand-mark">✦</span>
+        <div>
+          <b>AL MISK HALL</b>
+          <small>قاعة المسك · IBRI · OMAN</small>
+        </div>
+      </div>
+
+      <div class="footer-links">
+        <a href="#hero-scroll-container">Home</a>
+        <a href="#about">About</a>
+        <a href="#gallery">Gallery</a>
+        <a href="#events">Events</a>
+        <a href="#why">Why Us</a>
+        <a href="#packages">Packages</a>
+        <a href="#reviews">Reviews</a>
+        <a href="#location">Location</a>
+        <a href="#booking">Contact &amp; Booking</a>
+      </div>
+
+      <div class="footer-bottom">
+        <p>© 2026 Al Misk Hall (قاعة المسك). All rights reserved. Ibri, Sultanate of Oman.</p>
+        <p class="credits">Crafted with high-performance scroll animation &amp; responsive design.</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Floating WhatsApp Action Button -->
+  <a
+    class="float-wa"
+    href="https://wa.me/96896135511?text=Hello%20Al%20Misk%20Hall%2C%20I%20would%20like%20to%20make%20an%20enquiry."
+    target="_blank"
+    rel="noopener"
+    aria-label="Chat directly on WhatsApp"
+    title="Chat with Al Misk Hall on WhatsApp"
+  >
+    <svg viewBox="0 0 24 24" width="30" height="30" fill="currentColor">
+      <path d="M12.031 6.172c-3.181 0-5.767 2.586-5.768 5.766-.001 1.298.38 2.27 1.019 3.287l-.711 2.598 2.664-.699c.981.536 1.769.814 2.796.814 3.182 0 5.768-2.587 5.768-5.766 0-3.18-2.586-5.766-5.768-5.766zm9.965 5.765c0 5.509-4.475 9.984-9.965 9.984-1.758 0-3.411-.459-4.851-1.261l-5.18 1.359 1.383-5.048c-.901-1.503-1.417-3.26-1.417-5.034 0-5.51 4.475-9.984 9.965-9.984 5.49 0 9.965 4.474 9.965 9.984z"/>
+    </svg>
+    <span class="wa-tooltip">Enquire on WhatsApp</span>
+  </a>
+
+  <!-- Back to Top Button -->
+  <button id="backToTop" class="back-to-top" aria-label="Scroll back to top" title="Back to top">
+    ↑
+  </button>
+
+  <!-- Lightbox Modal for Photo Gallery -->
+  <div id="imageLightbox" class="lightbox-modal" aria-hidden="true" role="dialog">
+    <div class="lightbox-backdrop" id="lightboxBackdrop"></div>
+    <div class="lightbox-box">
+      <button class="lightbox-close" id="lightboxClose" aria-label="Close Lightbox">✕</button>
+      <button class="lightbox-nav prev" id="lightboxPrev" aria-label="Previous Image">‹</button>
+      <button class="lightbox-nav next" id="lightboxNext" aria-label="Next Image">›</button>
+      <div class="lightbox-img-wrapper">
+        <img id="lightboxImg" src="" alt="Al Misk Hall Gallery Photo" />
+      </div>
+      <div class="lightbox-caption" id="lightboxCaption"></div>
+    </div>
+  </div>
+
+  <!-- Video Lightbox Modal for Venue Preview -->
+  <div id="videoModal" class="lightbox-modal" aria-hidden="true" role="dialog">
+    <div class="lightbox-backdrop" id="videoModalBackdrop"></div>
+    <div class="lightbox-box video-box">
+      <button class="lightbox-close" id="videoModalClose" aria-label="Close Video">✕</button>
+      <div class="lightbox-video-wrapper">
+        <video id="modalVideo" src="01.mp4" controls playsinline webkit-playsinline preload="auto">
+          <source src="01.mp4" type="video/mp4" />
+          <source src="1.1.mp4" type="video/mp4" />
+          Your browser does not support HTML5 video.
+        </video>
+      </div>
+      <div class="lightbox-caption">
+        <b>Al Misk Hall Entrance &amp; Venue Walkthrough</b>
+      </div>
+    </div>
+  </div>
+
+  <!-- Mobile Phone Sticky Quick-Action Dock (Visible only on Smartphones) -->
+  <nav class="mobile-bottom-dock" id="mobileBottomDock" aria-label="Quick Mobile Actions">
+    <a href="tel:+96896135511" class="dock-item call-action" aria-label="Call Al Misk Hall">
+      <div class="dock-icon-box">
+        <svg viewBox="0 0 24 24" width="20" height="20" fill="currentColor">
+          <path d="M6.62 10.79a15.053 15.053 0 006.59 6.59l2.2-2.2c.27-.27.67-.36 1.02-.24 1.12.37 2.33.57 3.57.57.55 0 1 .45 1 1V20c0 .55-.45 1-1 1-9.39 0-17-7.61-17-17 0-.55.45-1 1-1h3.5c.55 0 1 .45 1 1 0 1.25.2 2.45.57 3.57.11.35.03.74-.25 1.02l-2.2 2.2z"/>
+        </svg>
+      </div>
+      <span class="dock-label">Call Us</span>
+    </a>
+
+    <a href="https://wa.me/96896135511?text=Hello%20Al%20Misk%20Hall%2C%20I%20would%20like%20to%20enquire%20about%20hall%20availability." target="_blank" rel="noopener" class="dock-item wa-action" aria-label="WhatsApp Management">
+      <div class="dock-icon-box wa-box">
+        <svg viewBox="0 0 24 24" width="20" height="20" fill="currentColor">
+          <path d="M12.031 6.172c-3.181 0-5.767 2.586-5.768 5.766-.001 1.298.38 2.27 1.019 3.287l-.711 2.598 2.664-.699c.981.536 1.769.814 2.796.814 3.182 0 5.768-2.587 5.768-5.766 0-3.18-2.586-5.766-5.768-5.766zm9.965 5.765c0 5.509-4.475 9.984-9.965 9.984-1.758 0-3.411-.459-4.851-1.261l-5.18 1.359 1.383-5.048c-.901-1.503-1.417-3.26-1.417-5.034 0-5.51 4.475-9.984 9.965-9.984 5.49 0 9.965 4.474 9.965 9.984z"/>
+        </svg>
+      </div>
+      <span class="dock-label">WhatsApp</span>
+    </a>
+
+    <a href="#booking" class="dock-item book-action" aria-label="Book Event / Check Availability">
+      <div class="dock-icon-box book-box">
+        <span class="sparkle-icon">✨</span>
+      </div>
+      <span class="dock-label">Book Now</span>
+    </a>
+
+    <a href="https://maps.app.goo.gl/dQYaWQvJMUNQa7oV8" target="_blank" rel="noopener" class="dock-item map-action" aria-label="Google Maps Location">
+      <div class="dock-icon-box">
+        <svg viewBox="0 0 24 24" width="20" height="20" fill="currentColor">
+          <path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5s1.12-2.5 2.5-2.5 2.5 1.12 2.5 2.5-1.12 2.5-2.5 2.5z"/>
+        </svg>
+      </div>
+      <span class="dock-label">Directions</span>
+    </a>
+  </nav>
+
+  <!-- Core JavaScript -->
+  <script src="script.js"></script>
+</body>
+</html>
